@@ -31,3 +31,12 @@ print "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print "That becomes: ", what, "Can you do it by hand?"
+print 35 + (74 - 180 * (50 / 2))
+
+print "Random formula: 839 - 838 * 7"
+random_formula = subtract(839, multiply(838, 7))
+print 839 - 838 * 7, ' = ', random_formula
+
+print "Random formula: 839 * 838 - 7"
+random_formula = subtract(multiply(839, 838), 7)
+print 839 * 838 - 7, ' = ', random_formula
