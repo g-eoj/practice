@@ -1,0 +1,43 @@
+remember previous location so can turn back.
+
+Story: in forest, find food, don't get distracted
+
+Locations:
+forest_start: you are on a path in the forest. You are hungry. Go forward or turn back?
+field: house in distance, gravel_path to mountain
+small_clearing_1: croc_al, dark path to bacon pit, ominous path to chili, inviting path to clearing 2
+small_clearing_2: tv with cooking show, path with good smells, trick path back to clearing 1
+
+End Locations:
+chili_cook_off: Wow! I like chili too! You're lucky! Is it spicy?
+pancake_house: You find a house made out of pancakes. Do you live in it or eat it? 
+dark_path: dense trees, leads to bacon_pit
+
+Random Paths:
+swirly_tree_path:
+open_sky_path:
+
+Success: You are now fulfilled. Nothing bothers you ever again.
+bacon_pit: You fall into a pit of crisp delicious bacon. 
+#meatballs:
+eat_pancake_house: You find a bottle of pure maple syrup in the house. The debauchery that follows melts your mind, similar to the soft butter you also found.
+spicy_chili:
+#cheesus_crust: select pizza toppings, encounter cheesus if toppins = sausage, pepporoni, garlic, tomatoes. You realize Cheesus Crust is real and loves you.
+
+Distracted: You don't have what it takes.
+crocadile_alligator: any words from song lyrics = distracted
+swirly_trees: contemplate swirly trees = distracted, you look at the swirly trees, there is no explaining the terror you feel, and you forget you're hungry.
+smooth_gravel: look at gravel = distracted, as you try to count the stones you forget how hungry you are.
+sore_feet: think about shoes = distracted, all thoughts of food vanish as you regret your lack of appropriate footwear and sit down.
+meaning_of_life: look at sky = distracted, 
+cooking_show: watch show = distracted, 
+live_in_pancake_house = distracted, no text.
+no_spicy_chili: too spicy
+
+unexpected_input: Randomized?
+What does THAT MEAN?
+I doesn't thunk your riting eglish
+IMPOSSIBLE!
+Think before you type.
+Maybe you're not hungry?
+
