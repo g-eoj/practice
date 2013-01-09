@@ -17,3 +17,9 @@ bulls_on_parade = Song(["They rally around the family",
 happy_bday.sing_me_a_song()
 
 bulls_on_parade.sing_me_a_song()
+
+
+stubb = ["Do you remember", "We called you puppy?",
+         "Now you're one of us", "We call you family"]
+
+Song(stubb).sing_me_a_song()
