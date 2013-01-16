@@ -1,6 +1,8 @@
 ## Animal is-a object (yes, sort of confusing) look at the extra credit
 class Animal(object):
-  pass
+
+  def eat(self, food):
+    print "Eating %s." % food
 
 ## Dog is-a Animal
 class Dog(Animal):
@@ -8,6 +10,13 @@ class Dog(Animal):
   def __init__(self, name):
     ## Dog has-a name
     self.name = name
+    self.toys = []
+
+  def bark(self):
+    print "Barking!"
+
+  def newToy(self, toy):
+    self.toys.append(toy)
 
 ## Cat is-a Animal
 class Cat(Animal):
@@ -49,6 +58,7 @@ class Halibut(Fish):
 
 ## rover is-a Dog
 rover = Dog("Rover")
+rover.newToy('ball')
 
 ## satan is-a Cat
 satan = Cat("Satan")
